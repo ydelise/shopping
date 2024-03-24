@@ -1,0 +1,190 @@
+ @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+ 
+ body {
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+   height: 100px;
+   background-color: #fff;
+ }
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ 
+ /*header*/
+
+ header{
+   width: 100%;
+  position: fixed;
+  background-color: #255f63;
+  border-top: 20px solid rgb(169, 172, 169);
+  top: 0px;
+  height: 100px;
+ }
+ header > ul{
+  text-align: center;
+  padding: 30px;
+ }
+  header > ul > li{
+ list-style-type: none;
+  text-align: center;
+ display: inline-block;
+ }
+ header > ul > li > a{
+      padding: 20px 30px;
+      text-transform: uppercase;
+      color: #fff;
+     text-decoration: none;
+ }
+ nav{
+  height:200px;
+  padding-left: 0px;
+  margin-top: 150px ;
+  background-color: blue;
+  padding: 30px 0;
+ }
+ nav > ul{
+  
+  width: 100%;
+  text-align: center;
+
+ }
+ nav > ul > li{
+  list-style-type: none;
+  padding:  0px 10px;
+  display: inline-block;
+  
+  
+ }
+ 
+ /*footer*/
+ 
+ .footer-ind{  
+       
+   padding: 50px;  
+   background-color:#255f63;
+    border-bottom: 20px solid black;
+   
+ }
+ .footer-ind ul li{
+   display: inline-block;
+   list-style-type: none;
+   padding:10px 50px;
+ }
+ footer  ul  li a{
+  text-decoration: none;
+  color: #fff;
+ } 
+  
+  /*login    margin-top: 100px;   padding: 40px 10px;
+ */
+  
+  .footer-{
+     
+      padding: 50px;
+      background-color: aqua;
+      font-size: 50px;
+      text-align: center;
+    }
+    .footer- li{
+      list-style-type: none;
+      display: inline-block;
+      padding: 0 30px;
+      
+    
+    }
+  
+  
+  /*
+  nav{
+    background-color: red;
+  }*/
+   
+
+   
+
+  .form form{
+    margin-left: 450px;
+    border: 1px solid black;
+    margin-bottom: 500px;
+    margin-bottom: 74px;
+    width: 345px;
+    height: 400px;
+    background-color: blue;
+  }
+  .form input{
+    font-size: 20px;
+    width: 330px;
+  
+  }
+   .form  button{
+    width: 335px;
+    font-size: 30px;
+      background-color: green;
+    }
+ 
+ nav > ul {
+  width: 100%;
+  animation: slidedowm  30s infinite;
+  
+ }
+ nav > ul:hover  {   
+  animation-play-state: paused;
+  
+  
+ }
+ @keyframes slidedowm{
+ 
+  25%{
+    transform: translateX(-400px);
+  }
+  35%{
+    transform: translateX(-400px);
+  }
+  50%{
+    transform: translateX(-600px);
+  }
+  65%{
+    transform: translateX(-600px);
+  
+  }
+  75%{
+    transform: translateX(-800px);
+  }
+   95%{
+    transform: translateX(-1150px);
+   }
+  100%{
+    transform: translateX(-1330px);
+    
+    
+  }
+
+}
+ .left, .cleft, .right, .cright, .blue, .orange{
+  padding: 0px;
+  display: inline-block;
+  
+  padding: 10px 58px;
+  
+ }
+ section  img{
+  
+  width: 100px;
+  height: 100px; 
+  text-align: center;
+   border: 1px solid black;
+  border-radius: 50%;
+ 
+ }
+ p{
+  background-color: red;
+ }
+ p a{
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+ }
+ 
+  
+ 

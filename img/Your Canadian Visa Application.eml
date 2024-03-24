@@ -1,0 +1,161 @@
+Delivered-To: diakpaguiliyonli@gmail.com
+Received: by 2002:a17:906:b015:b0:a44:cff7:ef01 with SMTP id v21csp2254146ejy;
+        Fri, 8 Mar 2024 02:46:03 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IEYa+s9mHJ4pbyJVnfThDv8Kq+TFos8BvF7Hq2S1To+EwZ6NWgYoLMckSMhpAHOxJU/+SyA
+X-Received: by 2002:a05:6902:50c:b0:dc6:b812:8ab3 with SMTP id x12-20020a056902050c00b00dc6b8128ab3mr15221351ybs.26.1709894762925;
+        Fri, 08 Mar 2024 02:46:02 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1709894762; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Ko5MerZHhTRkhJiggGW/pVw0mynMC0+v9SmHI83yrsPcAQh8SV/qMQ1VlVr2Lm8+dX
+         xD1VAIRqM3oB2Txh8/mrJe/bv/BgDJfZnPFb06pb66jL7NYPfLfiUVAhbFHawTBWCsoN
+         7lcxuUfZ5LYn+jFYZq42IOEzM0nhRtJQn8acPpfW2e50DrD2zSREB7rE/UkvVho5rfCi
+         9lj2qq1AY3rLu7Uj4/Lm7mUchhgsvpAfDTTBFiOlqOwqt61NtR0DX3EwmNzhK9PbCnAI
+         /bakZSRuonYR7mIvwFwAa/HZxuHl4tpn+q98pOOhlfnAf6zEWcjCr9yWu15w0TGkZhQC
+         T4Cw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:feedback-id:to:message-id:subject:date:from
+         :dkim-signature;
+        bh=KtWUQ/Gc5jJ9DtUqWrWJ7wQJtZDYmR0Kqu1R8yA3jgg=;
+        fh=PXS+lRYZIwnpStPNIgxRuqIMb1XGcrB7k1umqEA69gA=;
+        b=Re1jawS/QBEXzneD6SmxHNZf55ztbnMUfz6tw8QjDVBn3WjYj/TCgOkR7UEdCNYe6K
+         MzSKwukrszt8KVlU0egoUejjXN66ws5tkZgndhwM9/W7k6FZ1/HeTKPXinjTpkyI+xlL
+         Tj+2Cg7Unj8Mdc8MFBvhdbe6GXg42xCu3lw8lzHsUdrohzhXP7jH/Qtc42TzCA+ZscpM
+         bLZzOGo7AeuRjPGFEthgRW2IYL1dMhoTvYldTVx7GyBqUDG0vTvsjlQpv36BKwSmbGem
+         Mkux6zjHLPYeEfAtSCu/j0SzncdS4OGZRuiFNhvGhJ7EDvbAPi44rr8rflZ+my5KAh7W
+         wPOQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@canadianvisaexpert.com header.s=mm1 header.b=TcMKE9g+;
+       spf=pass (google.com: domain of french.department@canadianvisaexpert.com designates 88.202.217.33 as permitted sender) smtp.mailfrom=French.Department@canadianvisaexpert.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=canadianvisaexpert.com
+Return-Path: <French.Department@canadianvisaexpert.com>
+Received: from mail1.pro-immigration.com (mail1.pro-immigration.com. [88.202.217.33])
+        by mx.google.com with ESMTPS id o19-20020ac87c53000000b0042ef60840a2si10593446qtv.128.2024.03.08.02.46.02
+        for <diakpaguiliyonli@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 08 Mar 2024 02:46:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of french.department@canadianvisaexpert.com designates 88.202.217.33 as permitted sender) client-ip=88.202.217.33;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@canadianvisaexpert.com header.s=mm1 header.b=TcMKE9g+;
+       spf=pass (google.com: domain of french.department@canadianvisaexpert.com designates 88.202.217.33 as permitted sender) smtp.mailfrom=French.Department@canadianvisaexpert.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=canadianvisaexpert.com
+Received: from mail1.pro-immigration.com (unknown [127.0.0.1])
+	by IMSVA (Postfix) with ESMTP id 8019C9CEB7
+	for <diakpaguiliyonli@gmail.com>; Fri,  8 Mar 2024 12:46:17 +0200 (IST)
+Received: from mail1.pro-immigration.com (unknown [127.0.0.1])
+	by IMSVA (Postfix) with ESMTP id 5841F9CE7D
+	for <diakpaguiliyonli@gmail.com>; Fri,  8 Mar 2024 12:46:17 +0200 (IST)
+Received: from [10.0.2.226] (unknown [147.234.16.5])
+	by mail1.pro-immigration.com (Postfix) with ESMTPS
+	for <diakpaguiliyonli@gmail.com>; Fri,  8 Mar 2024 12:46:17 +0200 (IST)
+DKIM-Signature: v=1; a=rsa-sha256; d=canadianvisaexpert.com; s=mm1;
+	c=relaxed/relaxed; q=dns/txt; i=@canadianvisaexpert.com; t=1709894760;
+	h=from:subject:date;
+	bh=KtWUQ/Gc5jJ9DtUqWrWJ7wQJtZDYmR0Kqu1R8yA3jgg=;
+	b=TcMKE9g+OFlF6vmzP23DVy0vbhlGhHsP7RilZALM0iE1zsgXfyP+K1TNI9LxM5AO2BlKoY1IbO4
+	YKTIsvai0thyKOGiWaPBPV1buEWMr/wT1lk6YiVvZsjzGPn40fn7Cndf9a7iY8ZQ2m1M6Cg47bmBd
+	qa4Yfl/6qWMXg5iHabc=
+From: Canadian Visa Expert <French.Department@canadianvisaexpert.com>
+Date: Fri, 08 Mar 2024 05:46:00 -0500
+Subject: Your Canadian Visa Application
+Message-Id: <QIOIDGCBHMU4.XRBTZ48SGT1C3@UTIL02>
+To: "diakpaguiliyonli@gmail.com" <diakpaguiliyonli@gmail.com>
+Feedback-ID: =?utf-8?q?21737-diakpaguiliyonli=40gmail=2Ecom=3Adiakpaguiliyonli=40gmail=2Ecom=3AM?=
+ =?utf-8?q?assMail=3Acanadianvisaexpert=2Ecom?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-qsUf5wyAFG3KrI4sHi06Ug=="
+X-TM-AS-GCONF: 00
+X-TM-AS-Product-Ver: IMSVA-9.1.0.1600-9.0.0.1002-28238.007
+X-TM-AS-User-Approved-Sender: Yes
+X-TMASE-Version: IMSVA-9.1.0.1600-9.0.1002-28238.007
+X-TMASE-Result: 10--8.659600-10.000000
+X-TMASE-MatchedRID: x/EPlNU2vY30phMcDft0El5KiRh8OJli4/LlQTEK3710Rj4DCNqrqfFf
+	hXhtHLLsJgl0VihwrFVHA1FdT9EOqGLvje/P2phuCgXEsAHuIh++tXlcwTi2h/of+BrFNLocKEH
+	lKugK5XuGqNHG5kO2ISD6fY+uTLQ/W3zx+20OEF9uKSQ9o0cAPF3n+beqvEXMnt/M15zYPUO3IO
+	6qx5330wP6HuDcBX9qOf4XYws8Obf9ua+1bQcoZGHki4hrFM750E7bU7GWyi+jMnPt5GZ9xgeWR
+	6s6ka6eiNBI53r2vd+E2c8f95ZwQaPFjJEFr+ol6AvlZUR4Tsjq7RwBATX84IwwwD7p0gJA2bNx
+	1HEv7HAVPU8Gz4xVjaSXmKxOn/QdKsDRjz/aCkDozXHthuwfJxmvk8gISalzGF2TX9S7VbRBt/c
+	UYOzkGCPWmP0MCsaWJ8kwtnN3EcOmKFvXRrWfqWJSGqL0sG/3
+X-TMASE-SNAP-Result: 1.821001.0001-0-1-22:0,33:0,34:0-0
+
+--=-qsUf5wyAFG3KrI4sHi06Ug==
+Content-Type: text/plain; charset=utf-8
+
+Madame Monsieur Diakpaguili Elisee Yonli
+
+Bonjour,
+
+Num&eacute;ro d&#39;utilisateur : 200902238
+
+Nous avons essay&eacute; de vous joindre pour verifier vos options d&#39;immigration vers le Canada.
+
+Veuillez repondre a ce couriel en compl&eacute;tant les d&eacute;tails ci-dessous:
+
+Num&eacute;ro de t&eacute;l&eacute;phone principal : 00&nbsp;____________
+
+Num&eacute;ro de t&eacute;l&eacute;phone alternatif : 00&nbsp;____________
+
+Emploi actuel:&nbsp;____________
+
+Salaire mensuel actuel :&nbsp;____________
+
+Niveau d&rsquo;&eacute;ducation:&nbsp;____________
+
+Niveau d&rsquo;anglais&nbsp;:&nbsp;____________
+
+Ann&eacute;e de naissance:&nbsp;____________
+
+Veuillez indiquer le jour et l&#39;heure de votre convenance afin que nos services vous contactent.
+
+Cordialement,
+
+D&eacute;partement d&#39;enregistrement
+
+Canadian Visa Expert
+
+&nbsp;
+
+&nbsp;
+
+--=-qsUf5wyAFG3KrI4sHi06Ug==
+Content-Type: text/html; charset=utf-8
+Content-Id: <FADLDGCBHMU4.ZNSG8W8O6FZO3@UTIL02>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="color:black">Madame Monsieur Diakpaguili Elisee Yonli</span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="color:black">Bonjour,</span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="color:black">Num&eacute;ro d&#39;utilisateur : 200902238</span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">Nous avons essay&eacute; de vous joindre pour verifier vos options d&#39;immigration vers le Canada.</span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">Veuillez repondre a ce couriel en compl&eacute;tant les d&eacute;tails ci-dessous:</span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">Num&eacute;ro de t&eacute;l&eacute;phone principal : 00&nbsp;</span></span></span><span style="font-size:9.0pt"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">____________</span></span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">Num&eacute;ro de t&eacute;l&eacute;phone alternatif : 00&nbsp;</span></span></span><span style="font-size:9.0pt"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">____________</span></span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">Emploi actuel:</span></span></span>&nbsp;<span style="font-size:9.0pt"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">____________</span></span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">Salaire mensuel actuel :</span></span></span><span style="font-size:9.0pt"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">&nbsp;____________</span></span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">Niveau d&rsquo;&eacute;ducation:</span></span></span><span style="font-size:9.0pt"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">&nbsp;____________</span></span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">Niveau d&rsquo;anglais&nbsp;:</span></span></span><span style="font-size:9.0pt"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">&nbsp;____________</span></span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">Ann&eacute;e de naissance:</span></span></span><span style="font-size:9.0pt"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">&nbsp;____________</span></span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:#333333">Veuillez indiquer le jour et l&#39;heure de votre convenance afin que nos services vous contactent.</span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="background-color:white"><span style="font-family:&quot;Tahoma&quot;,sans-serif"><span style="color:black">Cordialement,</span></span></span></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="background-color:white"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">D&eacute;partement d&#39;enregistrement</span></span></span></strong></span></span></p>
+
+<p><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span style="font-size:14.0pt"><span style="color:black">Canadian Visa Expert</span></span></strong></span></span></p>
+
+<p dir="RTL" style="text-align:right"><span style="font-size:12pt"><span style="font-family:&quot;Times New Roman&quot;,serif">&nbsp;</span></span></p>
+
+<p>&nbsp;</p>
+<br/>
+--=-qsUf5wyAFG3KrI4sHi06Ug==--
+
